@@ -17,9 +17,9 @@ def update(winner, loser, score, rounds):
 		score[winner] = [ point, point ]
 
 	if loser in score :
-		score[loser][1] = float('inf')
+		score[loser][1] = float('0')
 	else:
-		score[loser] = [ float('inf'), float('inf') ] # plus adapter a la logique du jeu
+		score[loser] = [ float('0'), float('0') ] # plus adapter a la logique du jeu
 
 	return score
 
