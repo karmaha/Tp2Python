@@ -37,6 +37,7 @@ def filtrer(a, b):
     for n in set(R) :
         if R.count(n) == 1 :
             orphelin.add(n)
+            
     
     # on ne retiens que les éléments n'ayant aucun des facteurs contenu dans orphelin
     for n in range(a, b+1) :
