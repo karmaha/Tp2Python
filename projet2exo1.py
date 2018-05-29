@@ -1,5 +1,5 @@
 
-# coding: utf-8
+
 
 # In[6]:
 
@@ -47,11 +47,6 @@ def filtrer(a, b):
 
     return utile
 
-
-#Moud atika 201400008517
-#Kerrab meha 201400007461
-#Sifi lamia 201300005809
-#Ticherfatin cylia 201400007276
 # In[8]:
 
 
